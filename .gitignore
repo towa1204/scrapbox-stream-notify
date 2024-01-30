@@ -1,2 +1,5 @@
+deploy.sh
 secrets.json
+secrets-prd.json
+secrets-dev.json
 deno.json
