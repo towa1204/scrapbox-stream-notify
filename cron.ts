@@ -1,4 +1,4 @@
-import secrets from "./secrets.json" with { type: "json" };
+import secrets from "./secrets.json" assert { type: "json" };
 import { DiscordWebhookRequest, Page, Secret } from "./types.ts";
 
 export function execCron() {
