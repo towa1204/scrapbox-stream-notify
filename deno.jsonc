@@ -1,0 +1,15 @@
+{
+  "deploy": {
+    "project": "75e4bdf9-d92d-4a66-ab3e-800938e6d95c",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "main.ts"
+  },
+  "imports": {
+    "@hono/hono": "jsr:@hono/hono@^4.7.8",
+    "@std/assert": "jsr:@std/assert@^1.0.10",
+    "@std/testing": "jsr:@std/testing@^1.0.7"
+  }
+}
