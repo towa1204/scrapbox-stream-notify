@@ -1,6 +1,7 @@
 {
-  "version": "4",
+  "version": "5",
   "specifiers": {
+    "jsr:@hono/hono@^4.7.8": "4.7.8",
     "jsr:@std/assert@^1.0.10": "1.0.10",
     "jsr:@std/data-structures@^1.0.5": "1.0.5",
     "jsr:@std/fs@^1.0.7": "1.0.7",
@@ -9,6 +10,9 @@
     "jsr:@std/testing@^1.0.7": "1.0.7"
   },
   "jsr": {
+    "@hono/hono@4.7.8": {
+      "integrity": "620b1eaab065196d4ebe02cff31f8d3a78c94f736ce2ca86ee14f5f26fe48ecd"
+    },
     "@std/assert@1.0.10": {
       "integrity": "59b5cbac5bd55459a19045d95cc7c2ff787b4f8527c0dd195078ff6f9481fbb3",
       "dependencies": [
@@ -110,6 +114,7 @@
   },
   "workspace": {
     "dependencies": [
+      "jsr:@hono/hono@^4.7.8",
       "jsr:@std/assert@^1.0.10",
       "jsr:@std/testing@^1.0.7"
     ]
