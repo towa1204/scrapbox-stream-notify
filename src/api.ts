@@ -1,4 +1,4 @@
-import secrets from "./secrets.json" with { type: "json" };
+import secrets from "../secrets.json" with { type: "json" };
 import { Hono } from "@hono/hono";
 import { logger } from "@hono/hono/logger";
 import { prettyJSON } from "@hono/hono/pretty-json";
