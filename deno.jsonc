@@ -13,6 +13,6 @@
     "@std/testing": "jsr:@std/testing@^1.0.7"
   },
   "tasks": {
-    "start": "deno run -A --unstable-cron --unstable-kv main.ts"
+    "start": "deno run -A --unstable-cron --unstable-kv src/main.ts"
   }
 }
